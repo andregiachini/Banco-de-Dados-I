@@ -58,7 +58,8 @@ values
        (7, '10/02/2022', 'saída'),
        (8, '11/02/2022', 'saída'),
        (9, '16/02/2022', 'saída'),
-       (10, '28/02/2022', 'entrada');
+       (10, '28/02/2022', 'entrada'),
+       (11, '01/03/2022', 'entrada');
 
 insert into produto_operacao(produto_id, operacao_id, quantidade_operacao)
 values
@@ -71,4 +72,5 @@ values
        (2, 6, 180),
        (8, 9, 250),
        (5, 7, 20),
-       (11, 3, 40);
+       (11, 3, 40),
+       (3, 11, 100);
