@@ -1,5 +1,7 @@
 create database varejo;
 
+\c varejo;
+
 
 create table produtos(
        produto_id       integer not null,
